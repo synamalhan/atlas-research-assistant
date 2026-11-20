@@ -28,6 +28,12 @@ Atlas answers questions over a small corpus of arXiv papers, reading text, figur
 
 Python, a vector index plus BM25, a PDF parser, an LLM API, and a small web UI.
 
+## Multimodal notes
+
+- `retrieval_mode` (`configs/atlas.toml`, or `--mode` on `python -m atlas.ask`) is `text_only` or `multimodal`. `make index` builds both. `text_only` is exactly the text-chunk baseline, so the comparison in the evaluation is fair.
+- `multimodal` retrieves text chunks, figures and tables in one ranked list. Signals: dense and BM25 over text, figure captions and table text, plus CLIP text-to-image search over figure images. They are fused with reciprocal rank fusion. `min_per_type` reserves a top-k slot for figures and tables so text chunks cannot crowd them out (set it to `{}` for pure score order).
+- **The generator sees text only**: text chunks, figure captions and table text. It never receives the images. A figure without a caption can be retrieved through CLIP but is not put in the prompt, so it cannot be cited in an answer.
+
 ## Notes
 
 Papers are not redistributed here. Check each paper's license before sharing any extracted content.

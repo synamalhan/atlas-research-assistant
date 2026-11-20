@@ -1,0 +1,85 @@
+# ===== Surveys (9) =====
+2610.01936v2  # Rethinking Knowledge Retrieval for Generation: A Survey on RAG Architectures and Applications | license: verify on arXiv abstract page
+2608.24977v2  # Retrieved But Not Reliable: A Survey on Attacks and Defenses in Retrieval-Augmented Generation | license: verify on arXiv abstract page
+2610.30193v1  # Protection Is Not One Event: A Survey of RAG Protection Research by Measured Endpoint | license: verify on arXiv abstract page
+2510.16724v2  # A Comprehensive Survey on Reinforcement Learning-based Agentic Search | license: verify on arXiv abstract page
+2508.15437v2  # Test-time Corpus Feedback: From Retrieval to RAG | license: verify on arXiv abstract page
+2505.20243v4  # It's High Time: A Survey of Temporal Question Answering | license: verify on arXiv abstract page
+2504.20119v2  # Can LLMs Be Trusted for Evaluating RAG Systems? A Survey of Methods and Datasets | license: verify on arXiv abstract page
+2503.14802v2  # Graph-Based Re-ranking in Information Retrieval and Beyond: A Survey | license: verify on arXiv abstract page
+2503.10677v3  # A Survey on Knowledge-Oriented Retrieval-Augmented Generation | license: verify on arXiv abstract page
+
+# ===== Benchmarks and evaluation (10) =====
+2611.21823v1  # TUSI: A Citation-Grounded Graph-Based Benchmark | license: verify on arXiv abstract page
+2611.10238v1  # CoRA-Bench: Evaluating Evidence Preservation by Context Selectors Under Token Budgets | license: verify on arXiv abstract page
+2611.01910v1  # EAGR: Evidence-Guided Adaptive Graph Retrieval | license: verify on arXiv abstract page
+2610.40966v1  # Better Retrievers, Worse Labels: How Incomplete Relevance Judgments Distort Abstention Evaluation in Conversational RAG | license: verify on arXiv abstract page
+2610.29722v1  # Retrieval Augmented Generation Compositionality (LASAGNA) | license: verify on arXiv abstract page
+2610.00406v1  # LLM-as-a-Judge for Low-Resource Languages: Adapting Ragas and Comparative Ranking for Romanian | license: verify on arXiv abstract page
+2609.38473v1  # Re-ranking and Late Interaction Drive Retrieval Quality: A Controlled Comparison of RAG Strategies for Scientific QA | license: verify on arXiv abstract page
+2609.34776v1  # Page-Aware Retrieval-Augmented Generation for EvalLLM 2026: A Five-Variant Study on French PDFs | license: verify on arXiv abstract page
+2609.16519v3  # AquiLLM: Evaluating Faithfulness in Open-Weight RAG-LLM Systems for Scientific Research | license: verify on arXiv abstract page
+2602.21553v2  # Revisiting RAG Retrievers: An Information Theoretic Benchmark (MIGRASCOPE) | license: verify on arXiv abstract page
+
+# ===== Retrieval and reranking (10) =====
+2611.20758v1  # UniGraph: A Unified Graph-based Index for Dynamic Hybrid Dense-Sparse Vector Retrieval | license: verify on arXiv abstract page
+2611.10405v1  # Yuanbao-Reranker: Document-Grounded Synthesis and Preference Distillation for Text Reranking | license: verify on arXiv abstract page
+2611.10170v1  # Where Did the Evidence Go? Diagnosing Proof-Set Loss in Long-Term Conversational Memory | license: verify on arXiv abstract page
+2611.07859v1  # CORE: Coarse-to-Fine Search with Context Management for Deep Research | license: verify on arXiv abstract page
+2610.38683v1  # Quantum-Inspired Pairwise Ranking Aggregation via Active LLM Feedback (LLM-IRA) | license: verify on arXiv abstract page
+2610.35868v1  # Retriever-Free Retrieval: Navigating Documents with Decision Models (DecisionRAG) | license: verify on arXiv abstract page
+2610.26260v1  # Preference Is Not Position: Evaluating Reranking on NevIR in Fixed Hybrid Candidate Pools | license: verify on arXiv abstract page
+2609.01617v1  # Hybrid Retrieval-Augmented Generation with Knowledge Graph Expansion, RRF Fusion, and Per-Chunk Grounded Evaluation | license: verify on arXiv abstract page
+2608.03860v1  # SciRet: A Compute-Aware Empirical Study of Retrieval and Reranking for Scientific RAG | license: verify on arXiv abstract page
+2606.21553v1  # Dissecting Agentic RAG: A Component Ablation for Multi-Hop QA with a Local 7B Model | license: verify on arXiv abstract page
+
+# ===== Chunking and indexing (9) =====
+2611.16425v1  # RMIT-ADM+S at TREC RAG 2026: Research Agents, Retriever Ablations, and Open-Weight Replication | license: verify on arXiv abstract page
+2610.24659v1  # RAGit: Turning Document Preprocessing into an Experimental Variable for RAG | license: verify on arXiv abstract page
+2609.31660v1  # Parser, Chunking, and Embedding Interactions in RAG over Indian Government Regulatory Documents | license: verify on arXiv abstract page
+2609.17012v1  # ORDER: Task-Conditioned Routing for Retrieval-Augmented Generation | license: verify on arXiv abstract page
+2611.08498v1  # Improving Contextual Retrieval for Long Documents using Semantic Chunking and Hybrid Retrieval Strategies | license: verify on arXiv abstract page
+2609.35780v1  # TSG Suggester: Tree-Structured Knowledge-Graph Retrieval for Troubleshooting Guide Recommendation | license: verify on arXiv abstract page
+2608.26192v2  # Comparing Chunking and Embedding Strategies for Turkish RAG Systems | license: verify on arXiv abstract page
+2608.03148v1  # Lightweight Chunk Selection for Mobile Retrieval-Augmented Generation | license: verify on arXiv abstract page
+2607.24332v1  # Cross-Attention Calibrated Deduplication for Retrieval-Augmented Generation System | license: verify on arXiv abstract page
+
+# ===== Agentic and iterative RAG (10) =====
+2611.17788v1  # RAG-FGO: Dynamic Optimization of Query-Rewriting Agents for Generative RAG | license: verify on arXiv abstract page
+2611.02810v1  # TRIO: Task Refinement with Individual Optimization for Retrieval-Augmented Generation | license: verify on arXiv abstract page
+2610.36444v1  # RouteDRAG: Learning to Route and Control Agentic Execution for Multimodal Document RAG | license: verify on arXiv abstract page
+2610.34872v2  # Adaptive Retrieval, Selective Answers: Evaluating Conformal Factuality in Agentic RAG | license: verify on arXiv abstract page
+2610.11370v2  # RIT-RAG: Navigating Document Corpora with Retrieval-Induced Trees | license: verify on arXiv abstract page
+2610.10507v1  # RECAST: Learning to Compute the Right Context through Adaptive Evidence Routing | license: verify on arXiv abstract page
+2609.32472v2  # AdaTutoRank: Learning to Rerank Document Sets via Adaptive Tutoring Optimization for RAG and Deep Research | license: verify on arXiv abstract page
+2606.05658v1  # Agent-Orchestrated Adaptive RAG: A Comparative Study on Structured and Multi-Hop Retrieval | license: verify on arXiv abstract page
+2605.12975v1  # Retrieval is Cheap, Show Me the Code: Executable Multi-Hop Reasoning for RAG (PyRAG) | license: verify on arXiv abstract page
+2603.00846v1  # Tiny-Critic RAG: Empowering Agentic Fallback with Parameter-Efficient Small Language Models | license: verify on arXiv abstract page
+
+# ===== Hallucination and attribution (10) =====
+2611.15538v1  # Faithful in Steps: Improving Generalization and Citation in RAG via Query Decomposition (QDRAG) | license: verify on arXiv abstract page
+2611.10642v1  # VisProve: Learning Typed Visual Provenance for Scientific Document Question Answering | license: verify on arXiv abstract page
+2609.23053v1  # Attributable Post-Rationalization in RAG Citations: A Controlled Reproduction and an RLVR Comparison | license: verify on arXiv abstract page
+2609.15660v1  # CiteShade: Citation Laundering in Multi-Source Retrieval-Augmented Generation and Its Counterfactual Defense | license: verify on arXiv abstract page
+2609.14245v1  # The Attribution-Compression Frontier in Retrieval-Augmented Generation | license: verify on arXiv abstract page
+2607.24236v2  # CAGE: Cognitive Attribution Graphs for Faithful Inline Citation Generation in Long-Form QA | license: verify on arXiv abstract page
+2606.26449v1  # ProvenAI: Provenance-Native Traces of Evidence in Generated Answers | license: verify on arXiv abstract page
+2606.07130v1  # Explicit Evidence Grounding via Structured Inline Citation Generation (FullCite) | license: verify on arXiv abstract page
+2606.03728v1  # Re-Ranking Through an Attribution Lens for Citation Quality in Legal QA | license: verify on arXiv abstract page
+2510.00361v3  # Attribution Gradients: Incrementally Unfolding Citations for Critical Examination of Attributed AI Answers | license: verify on arXiv abstract page
+
+# ===== Multimodal RAG (14) =====
+2611.18901v1  # LMEG-Doc: Layout-Grounded Multi-View Evidence Graphs for Multimodal Long-Document Retrieval | license: verify on arXiv abstract page
+2611.12957v1  # DocFS: File Systems as Agentic Reasoning Environments for Complex Multimodal Document QA | license: verify on arXiv abstract page
+2610.41335v1  # Pix2Evidence: A Multimodal RAG System for Text and Visual Evidence | license: verify on arXiv abstract page
+2610.33277v1  # GEMS-RAG: Graph-grounded Engineering Multimodal Standards Retrieval-Augmented Generation | license: verify on arXiv abstract page
+2610.24822v1  # VisR-RAG-Fin: Benchmarking Multimodal RAG over Visually Rich Financial Documents | license: verify on arXiv abstract page
+2610.21318v1  # Loud and Clear: Making Visual Evidence Count in Multimodal Document RAG | license: verify on arXiv abstract page
+2610.14531v2  # LongHisDoc: A Comprehensive Benchmark for Chinese Long Historical Document Understanding | license: verify on arXiv abstract page
+2610.13128v1  # Locate, Judge, Read: Role-Specialized Tool Agents over a Knowledge-Point Index for Open-Domain Multimodal Document QA (KnowForge) | license: verify on arXiv abstract page
+2610.09360v1  # TopoGraphRAG-Bench: Evaluating Multimodal GraphRAG on Layout-Grounded Evidence Reasoning | license: verify on arXiv abstract page
+2608.30163v1  # Doc-REFRAG: Rethinking Multimodal Document Retrieval-Augmented Generation | license: verify on arXiv abstract page
+2608.23176v1  # Evaluating Modern RAG: Textual, Multimodal, Dense, and Late Interaction Pipelines | license: verify on arXiv abstract page
+2608.21714v1  # LëtzCross: A Cross-Lingual Page-Level Benchmark for Multimodal Retrieval over Luxembourgish Documents | license: verify on arXiv abstract page
+2608.16628v1  # Hypergraph-based Multimodal Retrieval-Augmented Generation with Incremental Refinement | license: verify on arXiv abstract page
+2604.16313v1  # MARA: A Multimodal Adaptive Retrieval-Augmented Framework for Document Question Answering | license: verify on arXiv abstract page
