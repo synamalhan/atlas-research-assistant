@@ -1,0 +1,21 @@
+embedding_model = "sentence-transformers/all-MiniLM-L6-v2"
+chunk_size = 1200     # characters
+chunk_overlap = 200   # characters, block-granular
+processed_dir = "data/processed"
+index_dir = ".cache/index"
+k = 5                 # chunks passed to the LLM
+pool = 50             # candidates taken from each ranker before fusion
+rrf_k = 60
+retrieval_mode = "multimodal"   # or "text_only" (exactly the milestone 3 baseline)
+clip_model = "ViT-B-32"
+clip_pretrained = "laion2b_s34b_b79k"
+# Slots reserved in the top-k for each non-text type (if any such item was retrieved at all).
+# Text chunks far outnumber figures/tables, so plain fusion would let them crowd the others out.
+# Set to {} for pure score ordering.
+min_per_type = { figure = 1, table = 1 }
+
+# Judge for paraphrased claims; empty = same backend/model as the generator.
+judge_backend = ""
+judge_model = ""
+unverified_claims = "mark"   # "drop" or "mark" claims that are unverified / have no citation
+abstain_threshold = 0.5      # best dense cosine below this -> "cannot answer" (rough: set from 14 probe questions)
